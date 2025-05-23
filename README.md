@@ -50,6 +50,7 @@ pip install -r requirements.txt
      ```python
      import secrets
      token = secrets.token_urlsafe(32)
+     token
      ```
    - Atualize o JWT_SECRET no arquivo `core/configs.py`
 

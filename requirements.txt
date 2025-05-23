@@ -12,6 +12,7 @@ python-dotenv==1.1.0
 uvicorn==0.34.2
 starlette==0.46.2
 typing_extensions==4.13.2
+pytz==2025.2
 
 # Dependências indiretas (mantidas por segurança)
 annotated-types==0.7.0  # Dependência do pydantic
