@@ -10,6 +10,5 @@ class UsuarioModel(settings.DBBaseModel):
     nome: str = Column(String(256), nullable=False, index=True)
     email: str = Column(String(256), nullable=False, unique=True, index=True)
     senha: str = Column(String(256), nullable=False)
-    api_status = Column(String(256), nullable=False)
     data_criacao = Column(String(256), nullable=False)
     data_alteracao = Column(String(256), nullable=False)
